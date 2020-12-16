@@ -13,6 +13,7 @@ Aplikasi ini berfungsi untuk meringkas pesanan yang memiliki berbagai fitur yang
 ## How does it works?
 MVC adalah salah satu strategi untuk membuat source code kita memenuhi standar Single Responsibility.
 Pada aplikasi ini, terdapat beberapa class yang memiliki fungsi sebagai berikut:
+
 ![Class Diagram 1](assets/classDiagram1.jpg)
 * Pada class `Item.cs`, terdapat berbagai item makanan maupun minuman.
 * Pada class `KeranjangBelanja.cs`, item-item yang dibeli akan ditampung dalam sebuah wadah keranjang.
