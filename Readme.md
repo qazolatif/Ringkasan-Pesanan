@@ -20,7 +20,9 @@ Pada aplikasi ini, terdapat beberapa class yang memiliki fungsi sebagai berikut:
 * Pada class `Payment.cs`, berfungsi untuk kalkulasi item-item, promo, ongkos kirim dan sebagainya.
 
 Relasi antar class adalah sebagai berikut:
+
 ![Class Diagram 2](assets/classDiagram2.jpg)
+
 Pada bagian View(direpresentasikan dengan .xaml dan .xaml.cs) bertanggung jawab atas state Button, ListBox, Label dan komponen view lainnya.
 Pada bagian ini, sebaiknya tidak menaruh logika perhitungan maupun manipulasi data.
 Proses agregasi manipulasi data dapat dikerjakan pada bagian Model.
